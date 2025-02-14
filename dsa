@@ -1,0 +1,28 @@
+
+        HashMap<String,String> map =new HashMap<>();
+        
+        //insertion
+        map.put("TN","tamilnadu");
+        map.put("ka","karnataka");
+        map.put("kl","kerala");
+        
+        //search
+        System.out.println(map.get("TN"));
+        System.out.println(map.get("KA"));
+        
+        // System.out.println(map.getOrDefault("AP","Not found"));
+        
+        for(String key:map.keySet()){
+         System.out.println(key+ ""+map.get(key));
+        }
+        // remove
+        map.remove("kl");
+            system.out.println(map.keySet());
+        system.out.println(map,values());
+        
+        for(string value: map.valuesa()){
+        }
+           system.out.println(map.values)
+        }
+    }
+}
